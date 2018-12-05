@@ -1,0 +1,23 @@
+{
+    "name": "force/db-doc",
+    "description": "Document DB propreties from entities and count the number of elements registred",
+    "type": "library",
+    "require": {
+        "symfony/http-kernel": "^4.3@dev",
+        "symfony/config": "^4.3@dev",
+        "symfony/dependency-injection": "^4.3@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jonatuxdr",
+            "email": "jonathan.deriemaecker@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+    	"psr-4": {
+    		"Force\\DBDoc\\": "Force/DBDoc"
+    	}
+    }
+}
